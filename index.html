@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Boaz Anicet</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a href="/index.html">Home</a>
+          <a href="/stories.html">Stories</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h2>BOAZ ANICET</h2>
+          <h3>Welcome</h3>
+          <p>Hi. I'm Boaz. I like baking, video games and coding.</p>
+          <div id="div1">
+            <a href="https://www.google.com">
+              <img src="/images/banana-bread.jpg" alt="Banana Bread" />
+            </a>
+          </div>
+          <h4>Likes</h4>
+          <ul>
+            <li>🖥️ Coding</li>
+            <li>🎮 Video Games</li>
+            <li>🍞 Baking</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container" id="div2">
+          <form onsubmit="handleSubmit()">
+            <label>
+              What is your name?
+              <input id="name" type="text" placeholder="Name" />
+              <button class="btn" type="submit">Submit</button>
+            </label>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script>
+      const handleSubmit = () => {
+        const name = document.getElementById("name").value;
+        alert(`Hello, ${name}!`);
+      };
+    </script>
+  </body>
+</html>

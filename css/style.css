@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+ul {
+  font-style: italic;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: purple;
+}
+
+#blue {
+  color: blue;
+  display: inline;
+}
+#red {
+  color: red;
+}
+#green {
+  color: green;
+}
+
+#div1 {
+  background-color: gold;
+}
+
+#div1 img {
+  max-height: 300px;
+  display: block;
+}
+#div2 {
+  background-color: firebrick;
+}
+#div3 {
+  background-color: lavender;
+}
+#div4 {
+  background-color: seagreen;
+}
+#div1,
+#div2,
+#div3,
+#div4 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.btn {
+  border: none;
+  background-color: cadetblue;
+  transition: 0.3s;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: darkcyan;
+}
